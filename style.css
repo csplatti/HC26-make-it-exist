@@ -54,24 +54,3 @@ body {
     border-radius: 8px;
     background-color: #f8c9f5;
 }
-
-/* Challenge: Use these styles when tasks have a remove button. */
-/* #task_container div {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-} */
-
-/* Challenge: Style the remove buttons. */
-/* .complete {
-    padding: 4px 8px;
-    border: 2px solid #21152c;
-    border-radius: 5px;
-    background-color: transparent;
-    color: #21152c;
-    cursor: pointer;
-}
-
-.complete:hover {
-    background-color: white;
-} */
