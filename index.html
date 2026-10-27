@@ -10,21 +10,18 @@
 
 
     <link rel="stylesheet" href="./style.css">
+    <script src="./script.js" defer></script>
 </head>
 
 <body>
-    <h1 id="greeting_header">Hi, I'm Corbin!</h1>
-    <p>I am a third year studying Math and CS at UBC. I enjoy organizing hackathons, snowboarding, weightlifting, and eating food with friends! </p>
-    <p>Right now I am creating a webpage as an example for an intro to frontend development workshop I am teaching for hackcamp. This reminds me of when I was first learning, fun times! Will this wrap on the webpage? this is a looooooooooong paragraph! Yes it did! That is good to see :)</p>
+    <h1 id="greeting_header">Corbin's Task Manager</h1>
+    <p id="instruction_text">Add tasks using the form below!</p>
 
-    <p>Here is a link to my personal website <a href="https://iamcorbin.com">iamcorbin.com</a></p>
-
-    <p>Let's add a button to click for fun! It wont do anything for now :(</p>
-
-    <button id="click_me_button">Click Me!</button>
-
-    <p>Here is my favourite photo:</p>
-    <img id="whitewater_photo" src="https://iamcorbin.com/assets/whitewater-C-wPpiGX.jpg" alt="Whitewater, BC">
+    <div id="task_form">
+        <input id="task_name_input" type="text">
+        <input type="submit" id="task_submit_button" value="Add Task">
+    </div>
+    <div id="task_container"><div id="no_tasks_message">No tasks yet! :)</div></div>
 </body>
 
 </html>

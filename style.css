@@ -1,25 +1,75 @@
-* {
+body {
+    margin: 0;
+    padding: 40px 20px;
     background-color: rgb(242, 122, 236);
-    font-family: 'Jetbrains Mono';
+    color: #21152c;
+    font-family: "JetBrains Mono", monospace;
 }
 
 #greeting_header {
-    justify-self: center;
-}
-
-#click_me_button {
-    display: block; /* TODO: Understand what block does*/
-    border: 1px solid black;
-    border-radius: 5px;
-    justify-self: center;
-    background-color: rgb(90, 90, 240);
-}
-
-#whitewater_photo {
-    display: block;
-    justify-self: center;
+    margin-top: 0;
+    text-align: center;
 }
 
 #instruction_text {
-    justify-self: center;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+#task_form {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+#task_name_input {
+    width: 250px;
+    padding: 10px;
+    border: 2px solid #21152c;
+    border-radius: 5px;
+    font: inherit;
+}
+
+#task_submit_button {
+    padding: 10px 15px;
+    border: 2px solid #21152c;
+    border-radius: 5px;
+    background-color: rgb(90, 90, 240);
+    color: white;
+    cursor: pointer;
+}
+
+#task_submit_button:hover {
+    background-color: rgb(67, 67, 205);
+}
+
+#task_container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 60%;
+    margin: 30px auto;
+    padding: 15px;
+    border: 2px solid #21152c;
+    border-radius: 8px;
+    background-color: #f8c9f5;
+}
+
+#task_container div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.complete {
+    padding: 4px 8px;
+    border: 2px solid #21152c;
+    border-radius: 5px;
+    background-color: transparent;
+    color: #21152c;
+    cursor: pointer;
+}
+
+.complete:hover {
+    background-color: white;
 }
