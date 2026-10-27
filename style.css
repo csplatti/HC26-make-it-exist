@@ -55,13 +55,15 @@ body {
     background-color: #f8c9f5;
 }
 
-#task_container div {
+/* Challenge: Use these styles when tasks have a remove button. */
+/* #task_container div {
     display: flex;
     align-items: center;
     justify-content: space-between;
-}
+} */
 
-.complete {
+/* Challenge: Style the remove buttons. */
+/* .complete {
     padding: 4px 8px;
     border: 2px solid #21152c;
     border-radius: 5px;
@@ -72,4 +74,4 @@ body {
 
 .complete:hover {
     background-color: white;
-}
+} */
