@@ -3,7 +3,7 @@ body {
     padding: 40px 20px;
     background-color: rgb(242, 122, 236);
     color: #21152c;
-    font-family: "JetBrains Mono", monospace;
+    font-family: monospace;
 }
 
 #greeting_header {
@@ -47,7 +47,9 @@ body {
     display: flex;
     flex-direction: column;
     gap: 10px;
-    width: 60%;
+    box-sizing: border-box;
+    width: 400px;
+    max-width: 100%;
     margin: 30px auto;
     padding: 15px;
     border: 2px solid #21152c;
