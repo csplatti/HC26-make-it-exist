@@ -1,18 +1,20 @@
-const taskInput = document.getElementById("task_name_input");
-const addTaskButton = document.getElementById("task_submit_button");
-const taskContainer = document.getElementById("task_container");
+console.log("Hello world!");
 
-function addTask() {
-    const taskText = taskInput.value;
+// const taskInput = document.getElementById("task_name_input");
+// const addTaskButton = document.getElementById("task_submit_button");
+// const taskContainer = document.getElementById("task_container");
 
-    const task = document.createElement("div");
-    task.textContent = taskText;
+// function addTask() {
+//     // const taskText = taskInput.value;
 
-    taskContainer.appendChild(task);
+//     // const task = document.createElement("div");
+//     // task.textContent = taskText;
 
-    taskInput.value = "";
-}
+//     // taskContainer.appendChild(task);
 
-addTaskButton.addEventListener("click", function () {
-    addTask();
-});
+//     // taskInput.value = "";
+// }
+
+// addTaskButton.addEventListener("click", function () {
+//     addTask();
+// });
