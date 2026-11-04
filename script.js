@@ -1,20 +1,20 @@
 console.log("Hello world!");
 
-// const taskInput = document.getElementById("task_name_input");
-// const addTaskButton = document.getElementById("task_submit_button");
-// const taskContainer = document.getElementById("task_container");
+const taskInput = document.getElementById("task_name_input");
+const addTaskButton = document.getElementById("task_submit_button");
+const taskContainer = document.getElementById("task_container");
 
-// function addTask() {
-//     // const taskText = taskInput.value;
+function addTask() {
+    const taskText = taskInput.value;
 
-//     // const task = document.createElement("div");
-//     // task.textContent = taskText;
+    const task = document.createElement("div");
+    task.textContent = taskText;
 
-//     // taskContainer.appendChild(task);
+    taskContainer.appendChild(task);
 
-//     // taskInput.value = "";
-// }
+    taskInput.value = "";
+}
 
-// addTaskButton.addEventListener("click", function () {
-//     addTask();
-// });
+addTaskButton.addEventListener("click", function () {
+    addTask();
+});
